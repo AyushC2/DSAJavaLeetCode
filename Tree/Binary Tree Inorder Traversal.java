@@ -23,6 +23,7 @@ class Solution {
         if(root == null){
             return;
         }
+            
         inorder(root.left);
         result.add(root.val);
         inorder(root.right);
